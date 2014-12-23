@@ -6,4 +6,8 @@ class Location
 
   field :name,   type: String
   field :description,   type: String
+  field :hall, type: String
+  field :floor, type: String
+  field :latitude, type: Float
+  field :longitude, type: Float
 end
